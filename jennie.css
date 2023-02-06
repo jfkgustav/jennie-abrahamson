@@ -1,0 +1,75 @@
+.navBar { 
+    grid-row: 1;
+    grid-column: 2 / 8;
+    margin-top: -1px;
+    background-color: white;
+}
+
+.navBar a {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #6C6C6C;
+    top: 40px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    grid-row: 1;
+    grid-column: 1;
+    padding-top: 12px;
+    margin-top: -1px;
+}
+
+.logo #image {
+    width: auto; 
+    height: auto;
+    max-width: 230px;
+    max-height: 73px;
+}
+
+.item2 {
+    background-color: black;
+    border: 3px solid #562F96;
+    border-radius: 21px;
+    width: 827px;
+    height: 506px;
+    grid-row: 2;
+    grid-column: 5;
+}
+
+.item2 #image {
+    width: auto; 
+    height: auto;
+    max-width: 458px;
+    max-height: 501px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: auto auto auto auto auto auto auto auto;
+  row-gap: 38px;
+  margin:0;
+}
+
+.grid-container > div {
+    padding-left: 26px;
+    border-bottom: 1px solid #562F96;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(142, 22, 162, 0.25);
+
+}
+
+.grid-container > figure{
+    text-align: center;
+}
+
+
+body {
+    margin: 0;
+    background-image: url("jennieBG.png");
+    background-color: #cccccc;
+}
+
+
