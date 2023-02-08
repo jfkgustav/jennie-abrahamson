@@ -1,0 +1,11 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: auto auto auto auto auto auto auto auto;
+  }
+  
+  .grid-container > div {
+    padding-left: 26px;
+    border-bottom: 1px solid #562F96;
+    background-color: white;
+}
+

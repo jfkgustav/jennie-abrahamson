@@ -1,0 +1,70 @@
+.logo {
+    grid-row: 1;
+    grid-column: 1;
+    padding-top: 12px;
+    margin-top: -1px;
+}
+
+.logo #image {
+    width: auto; 
+    height: auto;
+    max-width: 230px;
+    max-height: 73px;
+}
+
+
+
+.navBar { 
+    grid-row: 1;
+    grid-column: 2 / 7;
+    margin-top: -1px;
+    background-color: white;
+}
+
+
+
+.navBar a {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #6C6C6C;
+    top: 40px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.apps { 
+    grid-row: 1;
+    grid-column: 7 / 8;
+    margin-top: -1px;
+    background-color: white;
+}
+
+.apps h2 {
+    position: relative;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #6C6C6C;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.apps img{
+    height: 28px;
+    width: 28px;
+    position: relative;
+    top: -10px;
+    left: -4px;    
+}
+
+.language img{
+    height: 15px;
+    width: 22px;
+    left: 0px;
+    right: -10px;
+    top: 0px;
+}
+
