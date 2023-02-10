@@ -1,0 +1,61 @@
+.promoPicture {
+    border: 3px solid #562F96;
+    background-color: black;
+    width: 827px;
+    height: 506px;
+    border-radius: 21px;
+    grid-row: 2;
+    grid-column: 4;
+}
+
+.grid-container {
+    row-gap: 38px;
+}
+
+.promoPicture video {
+    width: auto; 
+    height: auto;
+    max-width: 820px;
+    max-height: 500px;
+}
+
+h1 {
+    grid-row: 2;
+    margin-top: 150px;
+    grid-column: 3 / 5;
+    font-family: sans-serif;
+    margin-left: 200px;
+    font-size: 75px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#qoute {
+    grid-row: 3;
+    grid-column: 3;
+    margin-top: -160px;
+    margin-left: 200px;
+    font-family: sans-serif;
+    font-size: 36px;
+    color: gray;
+    width: 375px;
+}
+
+p {
+    grid-row: 4;
+    grid-column: 3 / 5;
+    margin-top: -60px;
+    font-size: 26px;
+    color: gray;
+}
+
+#contact {
+    font-family: sans-serif;
+    grid-row: 5;
+    grid-column: 4 / 5;
+    text-align: right;
+}
+
+label {
+    text-align: left;
+}
